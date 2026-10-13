@@ -1,0 +1,218 @@
+{
+  "package_state": "DEPOSIT_CANDIDATE_ONLY_NOT_PUBLISHED",
+  "doi": null,
+  "repository_accession": null,
+  "purpose": "Supporting aggregate research evidence for manuscript Version 25, not a complete image-level reproduction dataset.",
+  "source_notice": "Originally downloaded from private research archive; Drive IDs and account-specific URLs excluded from this candidate.",
+  "does_not_include": [
+    "full warehouse photograph dataset",
+    "raw image-level V2 split manifest",
+    "source image pixels",
+    "full neural network checkpoints",
+    "raw reviewer identities",
+    "original SAM human-review history",
+    "independent certified 13-class final test"
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "description": "V2 original split: 3816 image records, 13-class taxonomy",
+      "original_filename": "train_val_test_split_warehouse_item_monitoring_v2_group_safe.json",
+      "candidate_relpath": "evidence/S01__dataset_partition_summary.json",
+      "candidate_sha256": "f1001fece79f40714c19b99e274590090d00c1c55304439b65979c015e992329",
+      "transformation": "derived_split_counts_only",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S02",
+      "description": "Initial synthetic crate addition and split-safe policy",
+      "original_filename": "diffusion_aug_summary_warehouse_item_monitoring_v2_group_safe.json",
+      "candidate_relpath": "evidence/S02__diffusion_aug_summary_warehouse_item_monitoring_v2_group_safe.json",
+      "candidate_sha256": "3bbb4a8e8748014657ca230404db2b57245b50d1413cc2098be05eb127a6a051",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S03",
+      "description": "AQCGD training, best epoch and validation metrics",
+      "original_filename": "training_summary.json",
+      "candidate_relpath": "evidence/S03__training_summary.json",
+      "candidate_sha256": "d968b31095e200648a1934bc45e0c85903bd5e889d7135cc52cd74bd8ed9da06",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S04",
+      "description": "AQCGD generator acceptance and rejection accounting",
+      "original_filename": "aqcgd_generation_report.json",
+      "candidate_relpath": "evidence/S04__aqcgd_generation_report.json",
+      "candidate_sha256": "f6bb4f26f8e555e9daea47e8808e919734057a818666d11630886b94c5421cad",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S05",
+      "description": "Five-model validation selection comparison",
+      "original_filename": "experiment7_validation_model_comparison.csv",
+      "candidate_relpath": "evidence/S05__experiment7_validation_model_comparison.csv",
+      "candidate_sha256": "75adbc63cdbec246da7b148222c6b799179728a921db3d66c9f78845efe2725e",
+      "transformation": "original_csv_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S06",
+      "description": "Frozen-router paired test statistical analysis",
+      "original_filename": "step39_final_statistical_analysis.json",
+      "candidate_relpath": "evidence/S06__step39_final_statistical_analysis.json",
+      "candidate_sha256": "3ac972a309f644bcdb40b86b012b478a287d23e8ad3beaffb0fad12811698ead",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S07",
+      "description": "Experiment 9 training and checkpoint metadata",
+      "original_filename": "experiment9_training_summary.json",
+      "candidate_relpath": "evidence/S07__experiment9_training_summary.json",
+      "candidate_sha256": "dd16fb0cccb12b61c41460a03f3f19a71161dcaadc366b17a34036e71eb4f6dd",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S08",
+      "description": "Experiment 9 130-image and 568-image tests",
+      "original_filename": "step7_final_test_results.json",
+      "candidate_relpath": "evidence/S08__step7_final_test_results.json",
+      "candidate_sha256": "c3b00f66ade7977acb612b0e17dfa4c3e5272cdc5dcf61fc624f443257224422",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S09",
+      "description": "Experiment 10 split definitions",
+      "original_filename": "experiment10_hybrid_split_summary.json",
+      "candidate_relpath": "evidence/S09__experiment10_hybrid_split_summary.json",
+      "candidate_sha256": "566f2395020680c24d421a4c27b4a89ab4a53057aa546692fa13b1bfa3d7e945",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S10",
+      "description": "Experiment 10 66-image targeted test result",
+      "original_filename": "experiment10_final_metrics.json",
+      "candidate_relpath": "evidence/S10__experiment10_final_metrics.json",
+      "candidate_sha256": "810596c787ee22a7b85e0b4fe8b06716066a475932f29a4ccc4559c085b15fe8",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S11",
+      "description": "Cross-experiment exact and near-duplicate audit",
+      "original_filename": "audit_summary.json",
+      "candidate_relpath": "evidence/S11__audit_summary.json",
+      "candidate_sha256": "cfe0c8d67dcc1cd4757f48f95aeb95de90e7a2512b2e734a4a92a6de429e115e",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S12",
+      "description": "Experiment 11 early corrective training summary",
+      "original_filename": "experiment11_training_summary.json",
+      "candidate_relpath": "evidence/S12__experiment11_training_summary.json",
+      "candidate_sha256": "04a98c303459376bbdea23eda3900dc3962a6b76db7e47fefadce842ef865632",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S13",
+      "description": "Experiment 10 vs 11 shared 734-image comparison",
+      "original_filename": "stage4_summary.json",
+      "candidate_relpath": "evidence/S13__stage4_summary.json",
+      "candidate_sha256": "e8075e19442b136d6b3b621720405f73cde30328145fab92c6fceadbac453e8b",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S14",
+      "description": "Stage 6F image-resizing comparison",
+      "original_filename": "stage6F_summary.json",
+      "candidate_relpath": "evidence/S14__stage6F_summary.json",
+      "candidate_sha256": "e2066e6a1c27a764f36732c0956f0e82007928020884ec245a40176e1c37b39e",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S15",
+      "description": "Stage 6G matched hard-negative comparison",
+      "original_filename": "stage6G_summary.json",
+      "candidate_relpath": "evidence/S15__stage6G_summary.json",
+      "candidate_sha256": "2edd3d695dc81aa98d845ee1802cd2c2dc4519c0dc9b564aae74e15eeca36d87",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S16",
+      "description": "Stage 6H confusion-aware-loss comparison",
+      "original_filename": "stage6H_summary.json",
+      "candidate_relpath": "evidence/S16__stage6H_summary.json",
+      "candidate_sha256": "566f487995e59690eb10cd55b67f062c2c85912e1557409f0164fc90e5d4b591",
+      "transformation": "original_json_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S17",
+      "description": "Stage 5L real-only vs provisional synthetic pilot",
+      "original_filename": "stage5L_comparison.csv",
+      "candidate_relpath": "evidence/S17__stage5L_comparison.csv",
+      "candidate_sha256": "e8e0101b93c06721f1ebbd772102fd09aa62138008a58d9a8708497fb4e57392",
+      "transformation": "original_csv_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S18",
+      "description": "Stage 5L eleven provisional synthetic selections",
+      "original_filename": "pilot_synthetic_selection.csv",
+      "candidate_relpath": "evidence/S18__pilot_synthetic_selection.csv",
+      "candidate_sha256": "00ab2e021eb8d8daa1311db7f87454cc6b10e3c000638c02b8b463a9adc5eab4",
+      "transformation": "original_csv_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S19",
+      "description": "Stage 5F eight pending synthetic quality reviews",
+      "original_filename": "stage5F_verified_approval.csv",
+      "candidate_relpath": "evidence/S19__stage5F_verified_approval.csv",
+      "candidate_sha256": "1830705fd156b49c4e05915fddd0bd4a189478846954ead99842ffb3456c23fd",
+      "transformation": "original_csv_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    },
+    {
+      "id": "S20",
+      "description": "Stage 5K thirty-three pending synthetic candidates",
+      "original_filename": "stage5K_combined_candidates.csv",
+      "candidate_relpath": "evidence/S20__stage5K_combined_candidates.csv",
+      "candidate_sha256": "4ebbf3812beaf23ef7cede684cdc493337ae436a509c0a414d263ff2586e100c",
+      "transformation": "original_csv_values_with_internal_file_locations_redacted",
+      "source_status": "downloaded_original_verified_for_internal_archiving",
+      "candidate_status": "curated_not_published_not_rights_cleared"
+    }
+  ]
+}

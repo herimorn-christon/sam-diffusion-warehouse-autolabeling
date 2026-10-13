@@ -1,0 +1,21 @@
+{
+  "data_source": "Three original manifests + successfully decoded Drive image bytes",
+  "expected_image_records": 5770,
+  "decoded_images": 5770,
+  "missing_or_unreadable": 0,
+  "complete_audit": true,
+  "cross_split_exact_pixel_duplicate_pairs": 76,
+  "cross_split_near_duplicate_candidate_pairs_not_yet_adjudicated": 84,
+  "threshold": "dHash Hamming <= 5 of 64; visual review required",
+  "record_counts": {
+    "V2:train": 2685,
+    "V2:validation": 563,
+    "V2:test": 568,
+    "Exp9:train": 1040,
+    "Exp9:validation": 130,
+    "Exp9:test": 130,
+    "Exp10:train": 523,
+    "Exp10:validation": 65,
+    "Exp10:locked_test": 66
+  }
+}

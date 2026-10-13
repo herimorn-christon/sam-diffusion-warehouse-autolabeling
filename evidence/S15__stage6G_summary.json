@@ -1,0 +1,11 @@
+{
+  "control_best_epoch": 6,
+  "hard_best_epoch": 6,
+  "control_accuracy": 0.7125340599455041,
+  "hard_accuracy": 0.715258855585831,
+  "accuracy_change_pp": 0.27247956403269047,
+  "control_macro_f1": 0.7044732081244707,
+  "hard_macro_f1": 0.7075042883883778,
+  "macro_f1_change_pp": 0.3031080263907082,
+  "evaluation": "development_validation_only"
+}

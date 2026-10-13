@@ -1,0 +1,28 @@
+{
+  "research_title": "SAM-Assisted Auto-Labeling and Targeted Diffusion-Augmented Learning for Warehouse Item Classification",
+  "experiment": 11,
+  "stage": "4_model_comparison",
+  "evaluation_scope": "DEVELOPMENT_VALIDATION_ONLY",
+  "evaluation_images": 734,
+  "exp10_checkpoint_sha256": "93fb2507db1bd46b3eb7063c0836c7e237c4d6472b7d48ec569a30775a9ceb7d",
+  "exp11_checkpoint_sha256": "9ba48d7ae7fe1225fb87169acc5b64b6607f6087f87f81ba3bbae73362cf3777",
+  "exp11_best_epoch": 22,
+  "corrected_images": 47,
+  "new_errors": 29,
+  "improved_classes": 10,
+  "declined_classes": 3,
+  "unchanged_classes": 0,
+  "exp10_metrics": {
+    "model": "Experiment 10",
+    "accuracy": 0.662125340599455,
+    "macro_f1": 0.64996458539222,
+    "balanced_accuracy": 0.6480103802750299
+  },
+  "exp11_metrics": {
+    "model": "Experiment 11",
+    "accuracy": 0.6866485013623979,
+    "macro_f1": 0.6811128260113348,
+    "balanced_accuracy": 0.6751660743729782
+  },
+  "independent_test_certified": false
+}

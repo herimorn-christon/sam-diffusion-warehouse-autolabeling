@@ -1,0 +1,36 @@
+{
+  "record_type": "derived_summary_not_original_split_manifest",
+  "source_identifier": "S01",
+  "scenario": "Warehouse Item Monitoring",
+  "version": "v2_group_safe",
+  "random_seed": 77,
+  "split_method": "stratified_group_70_15_15",
+  "source_group_rule": "remove_final_numeric_crop_id",
+  "ratios": {
+    "train": 0.7,
+    "validation": 0.15,
+    "test": 0.15
+  },
+  "class_names": [
+    "carton_box",
+    "crate",
+    "plastic_container",
+    "pallet",
+    "bag_sack",
+    "tool",
+    "machinery_equipment",
+    "electronic_device",
+    "vehicle_part",
+    "furniture",
+    "clothing_textile",
+    "raw_material",
+    "general_goods"
+  ],
+  "counts": {
+    "total": 3816,
+    "train": 2685,
+    "validation": 563,
+    "test": 568
+  },
+  "note": "Complete image-level membership and source paths intentionally excluded pending rights and privacy review."
+}

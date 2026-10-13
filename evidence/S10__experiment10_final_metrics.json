@@ -1,0 +1,112 @@
+{
+  "experiment": "Experiment 10 — Hard-Case & Dataset Quality Refinement",
+  "label_schema_version": "warehouse_visual_taxonomy_v2",
+  "architecture": "ConvNeXt-Tiny",
+  "selected_epoch": 4,
+  "locked_test_examples": 66,
+  "locked_test_true_classes": [
+    "plastic_container",
+    "pallet",
+    "bag_sack",
+    "machinery_equipment",
+    "electronic_device",
+    "furniture",
+    "clothing_textile",
+    "general_goods"
+  ],
+  "model_output_classes": [
+    "carton_box",
+    "crate",
+    "plastic_container",
+    "pallet",
+    "bag_sack",
+    "tool",
+    "machinery_equipment",
+    "electronic_device",
+    "vehicle_part",
+    "furniture",
+    "clothing_textile",
+    "raw_material",
+    "general_goods"
+  ],
+  "correct_predictions": 61,
+  "accuracy": 0.9242424242424242,
+  "accuracy_percent": 92.42424242424242,
+  "macro_f1": 0.9083052967563837,
+  "macro_f1_percent": 90.83052967563837,
+  "balanced_accuracy": 0.8976902173913044,
+  "balanced_accuracy_percent": 89.76902173913044,
+  "checkpoint_sha256": "93fb2507db1bd46b3eb7063c0836c7e237c4d6472b7d48ec569a30775a9ceb7d",
+  "checkpoint_source": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "training_performed_in_step13": false,
+  "model_selection_performed_in_step13": false,
+  "locked_test_consumed": true,
+  "historical_testlab_39_used": false,
+  "per_class": [
+    {
+      "class_name": "plastic_container",
+      "support": 8,
+      "correct": 8,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "class_name": "pallet",
+      "support": 8,
+      "correct": 8,
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8888888888888888
+    },
+    {
+      "class_name": "bag_sack",
+      "support": 4,
+      "correct": 3,
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1": 0.8571428571428571
+    },
+    {
+      "class_name": "machinery_equipment",
+      "support": 8,
+      "correct": 7,
+      "precision": 0.875,
+      "recall": 0.875,
+      "f1": 0.875
+    },
+    {
+      "class_name": "electronic_device",
+      "support": 5,
+      "correct": 5,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "class_name": "furniture",
+      "support": 5,
+      "correct": 4,
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8888888888888888
+    },
+    {
+      "class_name": "clothing_textile",
+      "support": 23,
+      "correct": 22,
+      "precision": 0.9565217391304348,
+      "recall": 0.9565217391304348,
+      "f1": 0.9565217391304348
+    },
+    {
+      "class_name": "general_goods",
+      "support": 5,
+      "correct": 4,
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1": 0.8
+    }
+  ],
+  "important_interpretation": "92.42% is the Experiment-10 locked-test accuracy on the 66-image targeted hard-case evaluation set. It must not be described as universal warehouse accuracy."
+}

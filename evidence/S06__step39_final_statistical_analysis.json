@@ -1,0 +1,42 @@
+{
+  "comparison": "Experiment6_vs_frozen_Step37_router",
+  "n_test": 568,
+  "experiment6": {
+    "correct": 319,
+    "accuracy": 0.5616197183098591,
+    "macro_f1": 0.564466576729757
+  },
+  "step37_router": {
+    "correct": 320,
+    "accuracy": 0.5633802816901409,
+    "macro_f1": 0.565995178062451
+  },
+  "paired_correctness": {
+    "both_wrong": 246,
+    "router_only_correct": 3,
+    "exp6_only_correct": 2,
+    "both_correct": 317
+  },
+  "mcnemar_exact_p": 1.0,
+  "bootstrap": {
+    "iterations": 10000,
+    "accuracy_difference": 0.0017605633802817433,
+    "accuracy_difference_ci95": [
+      -0.005281690140845119,
+      0.010563380281690127
+    ],
+    "macro_f1_difference": 0.0015286013326940573,
+    "macro_f1_difference_ci95": [
+      -0.00630554785813961,
+      0.009430261950107667
+    ]
+  },
+  "routing": {
+    "routed": 10,
+    "fraction": 0.017605633802816902,
+    "exp6_correct_on_routed": 2,
+    "router_correct_on_routed": 3,
+    "net_correct_change": 1
+  },
+  "scientific_interpretation": "Statistical analysis performed after the Step-37 router was frozen and after final test evaluation. Results are descriptive/inferential only and were not used to modify the model."
+}

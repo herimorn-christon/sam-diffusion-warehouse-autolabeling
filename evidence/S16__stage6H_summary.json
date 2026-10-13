@@ -1,0 +1,24 @@
+{
+  "control_best_epoch": 2,
+  "corrective_best_epoch": 2,
+  "control_accuracy": 0.715258855585831,
+  "corrective_accuracy": 0.715258855585831,
+  "accuracy_change_pp": 0.0,
+  "control_macro_f1": 0.7081421604885129,
+  "corrective_macro_f1": 0.7081831517493605,
+  "macro_f1_change_pp": 0.004099126084766702,
+  "control_confusions": {
+    "general_goods_to_bag_sack": 6,
+    "general_goods_to_carton_box": 3,
+    "bag_sack_to_general_goods": 1,
+    "carton_box_to_general_goods": 2
+  },
+  "corrective_confusions": {
+    "general_goods_to_bag_sack": 6,
+    "general_goods_to_carton_box": 3,
+    "bag_sack_to_general_goods": 1,
+    "carton_box_to_general_goods": 2
+  },
+  "evaluation": "development_validation_only",
+  "independent_test": false
+}

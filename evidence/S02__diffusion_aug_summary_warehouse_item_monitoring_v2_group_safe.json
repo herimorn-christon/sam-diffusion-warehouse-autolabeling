@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-09-21T06:07:44.470683",
+  "scenario": "Warehouse Item Monitoring",
+  "section": "08C",
+  "split_version": "v2_group_safe",
+  "split_manifest": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "augmentation_manifest": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "augmentation_root": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "policy": {
+    "target_effective_train_count": {
+      "crate": 150
+    },
+    "num_variations_per_source": 1,
+    "max_attempts_per_variation": 2,
+    "max_accepted_synthetic_total": 100,
+    "train_only": true,
+    "validation_augmented": false,
+    "test_augmented": false
+  },
+  "original_train_counts": {
+    "clothing_textile": 218,
+    "general_goods": 221,
+    "electronic_device": 215,
+    "vehicle_part": 215,
+    "plastic_container": 229,
+    "bag_sack": 209,
+    "carton_box": 215,
+    "tool": 213,
+    "raw_material": 216,
+    "furniture": 223,
+    "pallet": 214,
+    "crate": 83,
+    "machinery_equipment": 214
+  },
+  "synthetic_counts": {
+    "crate": 25
+  },
+  "effective_train_counts": {
+    "carton_box": 215,
+    "crate": 108,
+    "plastic_container": 229,
+    "pallet": 214,
+    "bag_sack": 209,
+    "tool": 213,
+    "machinery_equipment": 214,
+    "electronic_device": 215,
+    "vehicle_part": 215,
+    "furniture": 223,
+    "clothing_textile": 218,
+    "raw_material": 216,
+    "general_goods": 221
+  },
+  "new_accepted_this_run": 25,
+  "total_accepted_synthetic": 25,
+  "generation_stats": {
+    "crate": {
+      "original_train_count": 83,
+      "target_effective_count": 150,
+      "existing_synthetic": 0,
+      "sources_considered": 83,
+      "new_accepted": 25,
+      "rejected_or_failed": 58,
+      "final_synthetic": 25
+    }
+  },
+  "source_leakage_check": {
+    "train_validation_overlap": 0,
+    "train_test_overlap": 0,
+    "validation_test_overlap": 0
+  },
+  "diffusion_config": {
+    "strength": 0.35,
+    "guidance_scale": 7.0,
+    "residual_scale": 0.12,
+    "clip_min_confidence": 0.18,
+    "identity_filter_enabled": true
+  }
+}

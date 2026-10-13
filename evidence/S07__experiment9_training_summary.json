@@ -1,0 +1,72 @@
+{
+  "experiment": "experiment9_targeted_generalization",
+  "starting_system": "Experiment 8 adapted system: Experiment-6 trained ConvNeXt feature extractor + Experiment-8 S2-23 diversity-adapted head",
+  "best_epoch": 9,
+  "best_dual_macro_f1": 0.737994937268067,
+  "baseline": {
+    "original_validation": {
+      "loss": 1.4035207883291092,
+      "accuracy": 0.6234458259325044,
+      "macro_f1": 0.6118988509974355,
+      "weighted_f1": 0.6239267788319256,
+      "balanced_accuracy": 0.6067063331145339,
+      "n": 563
+    },
+    "targeted_validation": {
+      "loss": 2.1986968113825873,
+      "accuracy": 0.3769230769230769,
+      "macro_f1": 0.36544087214062404,
+      "weighted_f1": 0.36544087214062393,
+      "balanced_accuracy": 0.37692307692307686,
+      "n": 130
+    }
+  },
+  "best": {
+    "epoch": 9,
+    "train_loss": 0.39947052971487906,
+    "original_validation": {
+      "loss": 1.3802652058338822,
+      "accuracy": 0.6323268206039077,
+      "macro_f1": 0.6150288167787374,
+      "weighted_f1": 0.6317363964103523,
+      "balanced_accuracy": 0.6108576371878534,
+      "n": 563
+    },
+    "targeted_validation": {
+      "loss": 0.7134261204646184,
+      "accuracy": 0.8615384615384616,
+      "macro_f1": 0.8609610577573965,
+      "weighted_f1": 0.8609610577573964,
+      "balanced_accuracy": 0.8615384615384616,
+      "n": 130
+    },
+    "dual_macro_f1": 0.737994937268067,
+    "backbone_lr": 1.5498214331265905e-06,
+    "head_lr": 1.1801084091597432e-05,
+    "elapsed_seconds": 76.5897445678711
+  },
+  "training_counts": {
+    "original_real": 2685,
+    "aqcgd_synthetic": 3,
+    "targeted_train": 1040,
+    "total_train": 3728,
+    "original_validation": 563,
+    "targeted_validation": 130
+  },
+  "protected_test_sets": {
+    "original_v2_test_568_used": false,
+    "new_targeted_test_130_used": false,
+    "historical_test_lab_39_used": false
+  },
+  "experiment8_reconstruction": {
+    "base_weight_path": "root.experiment6_weight",
+    "base_bias_path": "root.experiment6_bias",
+    "adapted_weight_path": "root.adapted_weight",
+    "adapted_bias_path": "root.adapted_bias",
+    "adapted_weight_difference_from_exp6": 0.017613491043448448,
+    "adapted_bias_difference_from_exp6": 0.0061437818221747875
+  },
+  "checkpoint": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "checkpoint_sha256": "397657fbdee35a5309b22a7a6e67168efd9d68855edaf7b4e263c5ae006c47a5",
+  "checkpoint_size_bytes": 337710339
+}

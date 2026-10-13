@@ -1,0 +1,63 @@
+{
+  "seed": 2026,
+  "total": 654,
+  "train": 523,
+  "validation": 65,
+  "locked_test": 66,
+  "train_validation_overlap": 0,
+  "train_test_overlap": 0,
+  "validation_test_overlap": 0,
+  "per_class": {
+    "bag_sack": {
+      "total": 34,
+      "train": 27,
+      "validation": 3,
+      "locked_test": 4
+    },
+    "clothing_textile": {
+      "total": 232,
+      "train": 186,
+      "validation": 23,
+      "locked_test": 23
+    },
+    "electronic_device": {
+      "total": 50,
+      "train": 40,
+      "validation": 5,
+      "locked_test": 5
+    },
+    "furniture": {
+      "total": 50,
+      "train": 40,
+      "validation": 5,
+      "locked_test": 5
+    },
+    "general_goods": {
+      "total": 48,
+      "train": 38,
+      "validation": 5,
+      "locked_test": 5
+    },
+    "machinery_equipment": {
+      "total": 80,
+      "train": 64,
+      "validation": 8,
+      "locked_test": 8
+    },
+    "pallet": {
+      "total": 80,
+      "train": 64,
+      "validation": 8,
+      "locked_test": 8
+    },
+    "plastic_container": {
+      "total": 80,
+      "train": 64,
+      "validation": 8,
+      "locked_test": 8
+    }
+  },
+  "training_performed": false,
+  "experiment9_modified": false,
+  "historical_testlab_39_used": false
+}

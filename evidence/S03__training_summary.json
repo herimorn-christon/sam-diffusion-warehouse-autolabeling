@@ -1,0 +1,23 @@
+{
+  "project_title": "AUTO LABELING & AUGMENTED TRAINING USING SAM VERSION AND DIFFUSION MODELS",
+  "experiment": "Experiment 6 — Adaptive Quality-Gated Confusion-Guided Diffusion (AQCGD)",
+  "run_name": "convnext_tiny_aqcgd_diffusion_35epochs",
+  "architecture": "Experiment-2 ConvNeXt-Tiny + AQCGD",
+  "original_train": 2710,
+  "aqcgd_synthetic": 3,
+  "combined_train": 2713,
+  "validation": 563,
+  "best_epoch": 26,
+  "best_validation_accuracy": 0.6305506216696269,
+  "best_validation_macro_f1": 0.6214723231488867,
+  "experiment2_reference_accuracy": 0.6252,
+  "experiment2_reference_macro_f1": 0.6126,
+  "accuracy_change_vs_experiment2": 0.005350621669626965,
+  "macro_f1_change_vs_experiment2": 0.00887232314888664,
+  "test_used": false,
+  "best_model": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "synthetic_manifest": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "generation_report": "[INTERNAL_FILE_LOCATION_REDACTED]",
+  "training_minutes": 20.938791366418204,
+  "completed_at": "2026-09-21T19:47:39.889630"
+}

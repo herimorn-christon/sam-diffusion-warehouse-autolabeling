@@ -1,0 +1,16 @@
+{
+  "direct": {
+    "best_epoch": 6,
+    "accuracy": 0.7125340599455041,
+    "macro_f1": 0.7033731293588287
+  },
+  "padded": {
+    "best_epoch": 6,
+    "accuracy": 0.6989100817438693,
+    "macro_f1": 0.6902600724981911
+  },
+  "accuracy_change_pp": -1.3623978201634857,
+  "macro_f1_change_pp": -1.3113056860637573,
+  "evaluation": "development_validation_only",
+  "independent_final_test": false
+}

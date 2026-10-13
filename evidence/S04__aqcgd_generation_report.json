@@ -1,0 +1,72 @@
+{
+  "project_title": "AUTO LABELING & AUGMENTED TRAINING USING SAM VERSION AND DIFFUSION MODELS",
+  "experiment": "Experiment 6 — Adaptive Quality-Gated Confusion-Guided Diffusion (AQCGD)",
+  "diffusion_model": "stabilityai/sdxl-turbo",
+  "target_confusions": {
+    "general_goods": "bag_sack",
+    "vehicle_part": "plastic_container",
+    "clothing_textile": "carton_box",
+    "crate": "electronic_device",
+    "tool": "furniture"
+  },
+  "requested_per_target": 12,
+  "accepted_counts": {
+    "general_goods": 0,
+    "vehicle_part": 0,
+    "clothing_textile": 0,
+    "crate": 2,
+    "tool": 1
+  },
+  "quality_thresholds": {
+    "sharpness": 571.3960723876953,
+    "contrast": 19.607650184631346,
+    "entropy": 5.778652124437881
+  },
+  "clip_threshold": 0.52,
+  "duplicate_hash_distance": 2,
+  "generation_stats": {
+    "general_goods": {
+      "attempts": 48,
+      "accepted": 0,
+      "quality_reject": 40,
+      "semantic_reject": 8,
+      "duplicate_reject": 0,
+      "generation_error": 0
+    },
+    "vehicle_part": {
+      "attempts": 48,
+      "accepted": 0,
+      "quality_reject": 48,
+      "semantic_reject": 0,
+      "duplicate_reject": 0,
+      "generation_error": 0
+    },
+    "clothing_textile": {
+      "attempts": 48,
+      "accepted": 0,
+      "quality_reject": 47,
+      "semantic_reject": 1,
+      "duplicate_reject": 0,
+      "generation_error": 0
+    },
+    "crate": {
+      "attempts": 48,
+      "accepted": 2,
+      "quality_reject": 46,
+      "semantic_reject": 0,
+      "duplicate_reject": 0,
+      "generation_error": 0
+    },
+    "tool": {
+      "attempts": 48,
+      "accepted": 1,
+      "quality_reject": 47,
+      "semantic_reject": 0,
+      "duplicate_reject": 0,
+      "generation_error": 0
+    }
+  },
+  "test_used": false,
+  "original_files_deleted": false,
+  "original_labels_changed": false
+}

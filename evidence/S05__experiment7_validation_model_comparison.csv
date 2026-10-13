@@ -1,0 +1,6 @@
+Validation Rank,Experiment,Role,Method,Best Epoch,Validation Accuracy (%),Validation Macro-F1 (%),Delta Accuracy vs Experiment 2 (pp),Delta Macro-F1 vs Experiment 2 (pp),Checkpoint Exists,Checkpoint,Summary Source
+1,Experiment 6,Diffusion-side innovation,ConvNeXt-Tiny + AQCGD targeted diffusion,26,63.06,62.15,0.54,0.89,True,[INTERNAL_FILE_LOCATION_REDACTED],[INTERNAL_FILE_LOCATION_REDACTED]
+2,Experiment 5,Classifier-side innovation,ConvNeXt + Residual Attention + Prototype Contrastive + Adaptive Gate,27,62.88,61.29,0.36,0.03,True,[INTERNAL_FILE_LOCATION_REDACTED],[INTERNAL_FILE_LOCATION_REDACTED]
+3,Experiment 2,Strong baseline,ConvNeXt-Tiny baseline,29,62.52,61.26,0.0,0.0,True,[INTERNAL_FILE_LOCATION_REDACTED],fallback_completed_run_values
+4,Experiment 4,Data-quality / DINOv2 study,DINOv2 + quality filtering + hard-negative separation,14,60.75,59.88,-1.77,-1.38,True,[INTERNAL_FILE_LOCATION_REDACTED],[INTERNAL_FILE_LOCATION_REDACTED]
+5,Experiment 1,Baseline architecture,ResNet50 baseline,16,60.57,59.68,-1.95,-1.58,True,[INTERNAL_FILE_LOCATION_REDACTED],fallback_completed_run_values
